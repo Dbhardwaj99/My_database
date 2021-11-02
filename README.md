@@ -1,5 +1,5 @@
 
-# Project Title
+# GUI database
 
 This is a program to run a databse where you can store the general information of poeple. 
 
