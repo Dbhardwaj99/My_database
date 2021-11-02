@@ -1,4 +1,5 @@
 import json
+from displaypage import *
 from tkinter import *
 
 f = open("/Users/divyanshbhardwaj/Dev/Pycharmpro/my social media/database.json", "r")
@@ -23,7 +24,7 @@ def login():
     password = password_entry.get()
     if name in info.keys():
         if password == info[name]["Password"]:
-            print("something")
+            display(name)
         else:
             root.geometry("270x150")
             wrong_password = ttk.Label(root, text="You're not that guy pal!")
