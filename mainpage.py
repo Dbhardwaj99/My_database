@@ -1,13 +1,13 @@
+from tkinter import ttk
+import tkinter as tk
 import json
 from displaypage import *
 from tkinter import *
 
-f = open("/Users/divyanshbhardwaj/Dev/Pycharmpro/my social media/database.json", "r")
+f = open("database.json", "r")
 s = f.read()
 info = json.loads(s)
 
-import tkinter as tk
-from tkinter import ttk
 
 # root window
 root = tk.Tk()
@@ -18,6 +18,7 @@ root.resizable(0, 0)
 # configure the grid
 root.columnconfigure(0, weight=1)
 root.columnconfigure(1, weight=3)
+
 
 def login():
     name = username_entry.get()
@@ -33,6 +34,7 @@ def login():
         root.geometry("270x150")
         not_authorised = ttk.Label(root, text="Who are you nigga?")
         not_authorised.grid(column=1, row=4, sticky=tk.W, padx=5, pady=5)
+
 
 # username
 username_label = ttk.Label(root, text="Username:")
