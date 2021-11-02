@@ -11,7 +11,7 @@ def display(naam):
     # print(info[naam])
     display = tk.Tk()
     display.geometry("320x190")
-    display.title('Profile')
+    display.title(f"{naam}'s Profile")
     display.resizable(0, 0)
 
     # configure the grid
@@ -63,9 +63,4 @@ def display(naam):
     age = info[naam].get('age')
     age_entry.insert(0, age)
 
-    # display.mainloop()
-
-# display("sona")
-# print(type(info["sona"]))
-# print(info["sona"].keys())
 
