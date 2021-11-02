@@ -1,13 +1,8 @@
-from tkinter import ttk
-import tkinter as tk
-import json
 from displaypage import *
-from tkinter import *
 
 f = open("database.json", "r")
 s = f.read()
 info = json.loads(s)
-
 
 # root window
 root = tk.Tk()
@@ -18,7 +13,6 @@ root.resizable(0, 0)
 # configure the grid
 root.columnconfigure(0, weight=1)
 root.columnconfigure(1, weight=3)
-
 
 def login():
     name = username_entry.get()
