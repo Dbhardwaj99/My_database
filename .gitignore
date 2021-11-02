@@ -1,3 +1,6 @@
 
 *.xml
 .idea/my social media.iml
+.DS_Store
+__pycache__/displaypage.cpython-39.pyc
+*.pyc
