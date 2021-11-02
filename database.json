@@ -1,0 +1,62 @@
+{   "sona":{
+        "FavFood":"Biryani",
+        "FavMovie":"Endgame",
+        "Password":"s1234",
+        "Current loaction":"Katihar",
+        "Fav cricketer":"Virat kohli",
+        "age":14
+    },
+
+    "anshu":{
+        "FavFood":"Chole Bhature",
+        "FavMovie":"Cars",
+        "Password":"a1234",
+        "Current loaction":"Katihar",
+        "Fav cricketer":"ms dhoni",
+        "age":19
+    },
+
+    "deepank":{
+        "FavFood":"Paneer",
+        "FavMovie":"KAbir singh",
+        "Password":"d1234",
+        "Current loaction":"Muzzafarpur",
+        "Fav cricketer":"ms dhoni",
+        "age":18
+    },
+
+    "gaurav":{
+        "FavFood":"Dosa",
+        "FavMovie":"bahubali",
+        "Password":"g1234",
+        "Current loaction":"Punjab",
+        "Fav cricketer":"ab devilers",
+        "age":20
+    },
+
+    "srijan":{
+        "FavFood":"Chole Bhature",
+        "FavMovie":"avengers",
+        "Password":"s1234",
+        "Current loaction":"patna",
+        "Fav cricketer":"Jadeja",
+        "age":17
+    },
+
+    "amar":{
+        "FavFood":"fish curry",
+        "FavMovie":"Sholay",
+        "Password":"a1234",
+        "Current loaction":"Kursela",
+        "Fav cricketer":"kapil dev",
+        "age":51
+    },
+
+    "shrima":{
+        "FavFood":"biryani",
+        "FavMovie":"Jab we met",
+        "Password":"s1234",
+        "Current loaction":"Katihar",
+        "Fav cricketer":"sachin",
+        "age":44
+    }}
