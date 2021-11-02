@@ -9,7 +9,7 @@
 
     "anshu":{
         "FavFood":"Chole Bhature",
-        "FavMovie":"Cars",
+        "FavMovie":"Life of Pi",
         "Password":"a1234",
         "Current loaction":"Katihar",
         "Fav cricketer":"ms dhoni",
@@ -17,8 +17,8 @@
     },
 
     "deepank":{
-        "FavFood":"Paneer",
-        "FavMovie":"KAbir singh",
+        "FavFood":"Paneer Chili",
+        "FavMovie":"Kabir singh",
         "Password":"d1234",
         "Current loaction":"Muzzafarpur",
         "Fav cricketer":"ms dhoni",
@@ -44,7 +44,7 @@
     },
 
     "amar":{
-        "FavFood":"fish curry",
+        "FavFood":"Paneer butter masala",
         "FavMovie":"Sholay",
         "Password":"a1234",
         "Current loaction":"Kursela",
@@ -53,10 +53,20 @@
     },
 
     "shrima":{
-        "FavFood":"biryani",
+        "FavFood":"momos",
         "FavMovie":"Jab we met",
         "Password":"s1234",
         "Current loaction":"Katihar",
         "Fav cricketer":"sachin",
         "age":44
-    }}
+    },
+
+    "ruby": {
+        "FavFood":"momos",
+        "FavMovie":"Dune",
+        "Password":"r1234",
+        "Current loaction":"Siliguri",
+        "Fav cricketer":"sachin",
+        "age":19
+    }
+}
