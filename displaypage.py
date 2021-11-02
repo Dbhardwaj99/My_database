@@ -3,9 +3,10 @@ import tkinter as tk
 from tkinter import ttk
 import json
 
-f = open("/Users/divyanshbhardwaj/Dev/Pycharmpro/my social media/database.json", "r")
+f = open("database.json", "r")
 s = f.read()
 info = json.loads(s)
+
 
 def display(naam):
     # print(info[naam])
@@ -62,5 +63,3 @@ def display(naam):
     age_entry.grid(column=1, row=4, sticky=tk.E, padx=5, pady=5)
     age = info[naam].get('age')
     age_entry.insert(0, age)
-
-

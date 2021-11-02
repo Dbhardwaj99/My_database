@@ -1,4 +1,3 @@
-
 # Project Title
 
 This is a program to run a databse where you can store the general information of poeple. 
@@ -65,4 +64,3 @@ Start the server
 **Client:** Python
 
 **Server:** JSON
-
